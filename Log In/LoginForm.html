@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.2.2-dist/css/bootstrap.min.css" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body class="bg-info">
+    <div class="container-sm|md|lg|xl text-white">
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-end">
+          <button
+            type="button"
+            class="btn btn-lg btn-primary btn-outline-light mx-4 mt-4"
+            data-bs-toggle="modal"
+            data-bs-target="#register">
+            REGISTER
+          </button>
+          <div id="register" class="modal fade">
+            <div
+              class="modal-dialog bg-light text-dark border border-dark modal-dialog modal-dialog-centered rounded" style="width: 350px;">
+              <div class="modal-content d-flex justify-content-center">
+                <div class="modal-header">
+                    <h3 class="modal-title" style="margin: auto;">REGISTER FORM</h3>
+                    <button type="button" class="btn-close mb-4" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                  <form action="#">
+                    <div class="col-lg-10 ps-4">
+                      <label for="fullname">Name:</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="name"
+                        name="fullname"
+                        placeholder="Enter Your Fullname" />
+                    </div>
+                    <div class="col-lg-10 ps-4 pt-2">
+                      <label for="email">E-Mail:</label>
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email" />
+                    </div>
+                    <div class="col-lg-10 ps-4 pt-2">
+                      <label for="mblnumber">Mobile Number:</label>
+                      <input type="tel" class="form-control" name="Mobilenumber" id="mblnumber" placeholder="Enter Your MobileNumber">
+                    </div>
+                    <div class="col-lg-10 ps-4 pt-2">
+                      <label for="pswd" class="">Password:</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="pswd"
+                        name="password"
+                        placeholder="Enter Your Password" />
+                    </div>
+                    <div class="col-lg-10 ps-4 pt-2">
+                      <label for="repswd" class="">Re-Type PassWord:</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="pswd"
+                        name="password"
+                        placeholder="Re-Type Enter Your Password" />
+                    </div>
+                    <div class="form-check col-lg-10 ps-4 pt-2">
+                      <input type="checkbox" value="" id="termsandconditions" class="form-check-input ms-1">
+                      <label for="termsandcondition" class="form-check-label ps-2 text-break">I accept yours <br><a href="" class="text-decoration-none">Terms & Conditions</a></label>
+                    </div>
+                    <div class="col-lg-10 ps-4 d-flex justify-content-center">
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm|md|lg|xl|xxl-12 d-flex justify-content-center">
+          <div class="col-lg-4 mt-5 mx-5">
+            <div class="d-flex justify-content-center">
+              <form class="col-lg-8">
+                <h1 class="ps-5 pt-3">LOGIN</h1>
+                <div class="col-lg-8 mb-3 mt-3">
+                  <label for="email">Email:</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Enter email"
+                    name="email" />
+                </div>
+                <div class="col-lg-8 mb-3">
+                  <label for="pwd">Password:</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="pwd"
+                    placeholder="Enter password"
+                    name="pswd" />
+                </div>
+                <div class="col-lg-8 form-check mb-3">
+                  <label class="form-check-label">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      name="remember" />
+                    Remember me
+                  </label>
+                </div>
+                <div class="col-lg-8 d-flex justify-content-center">
+                  <button style="font-size: 20px;"
+                    type="submit"
+                    class="col-lg-8 btn btn-primary btn-outline-light">
+                    LogIn
+                  </button>
+                </div>
+                <div class="col-lg-8 text-center pt-2">
+                  <span style="font-size: 13px"
+                    >Do you forgot your</span
+                  >
+                  <a
+                    href="#!"
+                    class="text-decoration-none"
+                    style="font-size: 18px;"
+                    >Password?</a
+                  >
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
